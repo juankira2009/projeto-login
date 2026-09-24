@@ -1,3 +1,64 @@
 @charset "UTF-8";
 
-/*escolher paleta de cores/
+/*escolher paleta de cores
+branco:f7f7ff
+azul:27187e
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root{
+
+    --cor1:#f7f7ff;
+    --cor2:#27187e;
+    --complementar1:#351dbe;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor2);
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    overflow: hidden;
+    background-color: var(--cor1);
+    margin: auto;
+    width: 410px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img{
+    background-image: url(../imagens/sla.jpg);
+    background-repeat: no-repeat;
+    background-position: cover; 
+    height: 200px;
+    display: block;
+}
+
+div#form{
+display: block;
+background-color: var(--cor1);
+padding:20px;
+
+}
+ 
+div#form h1{
+    color: var(--complementar1);
+    padding-bottom: 5px;
+}
