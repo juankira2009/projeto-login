@@ -42,7 +42,7 @@ div#form{
 }
     body{
 
-    background-image: linear-gradient(#f7f7ff , #351dbe 70%,#27187e 90%  );
+    background-image: linear-gradient(to bottom, #98b2e9 , #351dbe 70%,#27187e 90%  );
 
 }
 
@@ -55,6 +55,14 @@ div#img{
     float: left;
     width: 50%;
     height: 100%;
+}
+
+div#form h1{
+    font-size: 3em;
+}
+div#form p{
+
+    font-size: 1em;
 }
 
 

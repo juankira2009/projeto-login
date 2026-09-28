@@ -64,5 +64,10 @@ padding:20px;
  
 div#form h1{
     color: var(--complementar1);
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.9em ;
+}
+
+div#form p{
+    font-size: 0.8em;
 }
