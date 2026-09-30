@@ -36,7 +36,7 @@ section#login{
     background-color: var(--cor1);
     margin: auto;
     width: 340px;
-    height: 500px;
+    height: 517px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -52,13 +52,14 @@ div#img{
     background-repeat: no-repeat;
     background-position: cover; 
     height: 200px;
-    display: block;
+   
 }
 
 div#form{
+    
 display: block;
 background-color: var(--cor1);
-padding:20px;
+padding: 20px;
 
 }
  
@@ -70,4 +71,63 @@ div#form h1{
 
 div#form p{
     font-size: 0.8em;
+}
+
+div.campo{
+    background-color: #27187e;
+    margin: 5px  0px;
+    height: 40px;
+    border-radius: 5px;
+}
+div.campo label{
+    display: none;
+}
+div.campo span{
+    color: var(--cor1);
+    padding-left: 3px ;
+}
+
+form input[type=submit]{
+    font-size: 1em;
+    background-color: var(--complementar1);
+    color: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    height: 40px;
+    width: 100%;
+   
+   
+}
+
+form input[type=submit]:hover{
+    background-color: var(--cor2);
+}
+
+form a.botao{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    text-decoration:none;
+    text-align: center;
+    margin-top:5px ;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid #351dbe;
+
+}
+
+form a.botao:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    font-weight: bolder;
+
+}
+
+form a.botao span{
+    font-size: 1em;
+    padding-top: 10px;
 }
