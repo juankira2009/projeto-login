@@ -16,8 +16,9 @@ azul:27187e
     --cor1:#f7f7ff;
     --cor2:#27187e;
     --complementar1:#351dbe;
+    --complementar2:#063999;
+    
 }
-
 html, body{
     width: 100vw;
     height: 100vh;
@@ -36,13 +37,13 @@ section#login{
     background-color: var(--cor1);
     margin: auto;
     width: 340px;
-    height: 517px;
+    height: 528px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
+  
     transform: translate(-50%, -50%);
-
     transition: width .2s, heigth .2s;
     transition-timing-function: ease;
 }
@@ -77,14 +78,32 @@ div.campo{
     background-color: #27187e;
     margin: 5px  0px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 3px solid var(--cor2);
 }
 div.campo label{
     display: none;
 }
 div.campo span{
     color: var(--cor1);
-    padding-left: 3px ;
+
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo input{
+    background-color:var(--complementar2);
+    font-size: 1em;
+    width: calc(100% - 60px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+     transform: translateY(-13px);
+}
+
+div.campo input:focus-within{
+    background-color: var(--cor1);
 }
 
 form input[type=submit]{

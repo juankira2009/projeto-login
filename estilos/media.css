@@ -16,6 +16,7 @@ body{
 
 section#login{
     width: 80vw;
+    height: 330px;
 }
 
 div#img{
@@ -29,6 +30,9 @@ div#form{
     width: 63%;
     height: 100%;
 
+}
+div.campo input{
+    background-color: #053f97;
 }
 }
 @media screen and (min-width:992px) {
@@ -49,6 +53,7 @@ div#form{
 
     section#login{
         width: 90vw;
+        height: 350px;
     }
     
 div#img{
@@ -58,6 +63,7 @@ div#img{
 }
 div#form{
     width: 65%;
+   
 }
 
 div#form h1{
