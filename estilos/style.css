@@ -16,7 +16,7 @@ azul:27187e
     --cor1:#f7f7ff;
     --cor2:#27187e;
     --complementar1:#351dbe;
-    --complementar2:#5b94ff;
+    --complementar2:#b0e9ff;
     
 }
 html, body{
@@ -102,10 +102,12 @@ div.campo input{
      margin-top: 13px;
      box-sizing: border-box;
      border: none;
+     padding: 10px;
 }
 
 div.campo input:focus-within{
     background-color: var(--cor1);
+    transition: .2s;
 }
 
 form input[type=submit]{
