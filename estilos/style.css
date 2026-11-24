@@ -37,7 +37,7 @@ section#login{
     background-color: var(--cor1);
     margin: auto;
     width: 340px;
-    height: 528px;
+    height: 560px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -94,15 +94,14 @@ div.campo span{
 
 div.campo input{
     background-color:var(--complementar2);
-    font-size: 1em;
-    width: calc(100% - 60px);
+    font-size: 15px;
+    width: calc(100% - 59px);
     height: 100%;
     border-radius: 8px;
-     transform: translateY(-13px);
-     margin-top: 13px;
-     box-sizing: border-box;
-     border: none;
+     transform: translate3d(59px, -51px ,0px);
      padding: 10px;
+     box-sizing: border-box;
+     border: none;  
 }
 
 div.campo input:focus-within{
